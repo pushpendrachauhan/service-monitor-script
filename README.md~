@@ -17,6 +17,3 @@ add txt file with service name and intially put 0 in it, I have added mongo.txt
 Configure post fix to setup gmail please use this link to configure it
 
 https://rtcamp.com/tutorials/linux/ubuntu-postfix-gmail-smtp/
-
-run the service as cron jobs
-
