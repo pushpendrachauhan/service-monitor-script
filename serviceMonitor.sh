@@ -15,7 +15,7 @@ do
            ts=`cat $timestampContainer`
            if (($ts > 0 ));then
 		mailBody="$line service started again !!"
-		echo -e $mailBody | mail -s "$hostIp Service report " "pushpendra.singh@cerridsolutions.com" 
+		echo -e $mailBody | mail -s "$hostIp Service report " "yourmail@gmail.com" 
                 cat /dev/null > $timestampContainer
 		echo 0 >> $timestampContainer
            else
